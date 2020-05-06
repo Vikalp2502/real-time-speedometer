@@ -1,0 +1,47 @@
+<html>
+<head>
+
+	<title>Spedometer</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+
+	<!-- Icons -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+	<link rel="manifest" href="manifest.json">
+	<meta name="msapplication-TileColor" content="#080808">
+	<meta name="msapplication-TileImage" content="/img/ms-icon-144x144.png">
+	<meta name="theme-color" content="#080808">
+	<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" type="text/css"/>   
+
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo"><h2 data-aos="fade-right">Vik<span>alp</span></h2></div>
+		</nav>
+	</header>
+	<div id="landing">
+		<p data-aos="flip-down"><strong>Alert: Make sure your GPS is activated and refresh after it.</strong></p>
+	<div id="speed" data-aos="zoom-in">0.0</div>
+	<div id="units" data-aos="zoom-in">m.p.h.</div>
+	</div>
+	<script type="application/javascript" src="main.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         AOS.init({
+         	durnation: 2000,
+         });
+     </script>
+</body>
+</html>
