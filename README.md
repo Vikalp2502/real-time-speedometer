@@ -9,4 +9,4 @@ You have enabled GPS or location in your device. After enabled refresh the page 
 ### Languages
 JavaScript, CSS, HTML, Node.js, API
 
-### Download the file and install node modules using "npm install" in terminal, after that "npm start".
+#### Download the file and install node modules using "npm install" in terminal, after that "npm start".
