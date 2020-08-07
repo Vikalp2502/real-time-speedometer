@@ -62,7 +62,8 @@ p{
 	}
 	#landing{
 		margin-left: 5%;
-		background-size: 100% 75%;
+		background-position: top;
+		background-size: 100% 35%;
 	}
 	#speed{
 		top: 41%;
