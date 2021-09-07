@@ -7,6 +7,6 @@ This web app shows the user's current speed using [geolocation API](https://deve
 You have enabled GPS or location in your device. After enabled refresh the page if you are using mobile device.
 
 ### Languages
-JavaScript, CSS, HTML, Node.js, API
+JavaScript, CSS, HTML, API
 
-#### Download the file and install node modules using "npm install" in terminal, after that "npm start".
+
